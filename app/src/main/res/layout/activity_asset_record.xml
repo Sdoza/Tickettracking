@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/client_name"/>
+        <EditText
+            android:id="@+id/client_name"
+            android:layout_weight="1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/asset_Tag" />
+        <EditText
+            android:id="@+id/asset_tag"
+            android:layout_weight="1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message"/>
+        <Button
+            android:id="@+id/assetScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/barcode_scan"
+            android:onClick="scanBarcode"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/monitor_Tag" />
+        <EditText
+            android:id="@+id/monitor_AssetTags"
+            android:layout_weight="1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message"/>
+        <Button
+            android:id="@+id/monitorScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/barcode_scan"
+            android:onClick="scanBarcode"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/button_send"
+            android:onClick="saveTofile"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/clear"
+            android:onClick="clearBoxes"/>
+    </LinearLayout>
+
+</LinearLayout>

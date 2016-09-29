@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/newTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/activityName_NewTicket"
+            android:onClick="newAcitivity"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/printerTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/activityName_PrinterTicket"
+        android:onClick="newAcitivity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/assetRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/activityName_AssetRecord"
+            android:onClick="newAcitivity"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/aboutApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/activityName_AboutApp"
+            android:onClick="newAcitivity"/>
+    </LinearLayout>
+</LinearLayout>

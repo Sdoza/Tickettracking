@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tickets</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Save</string>
+    <string name="button_newTicket">New Ticket</string>
+    <string name="activityName_NewTicket">General Ticket</string>
+    <string name="activityName_PrinterTicket">Printer Ticket</string>
+    <string name="activityName_AboutApp">About</string>
+    <string name="activityName_AssetRecord">Asset Record</string>
+    <string name="asset_Tag">Asset Tag: </string>
+    <string name="asset_Serial">Asset Serial: </string>
+    <string name="monitor_Tag">Monitor Tag: </string>
+    <string name="printer_Tag">Printer Tag: </string>
+    <string name="error_disc">Error: </string>
+    <string name="client_name">Client name: </string>
+    <string name="resolution">Resolution / Note: </string>
+    <string name="clear">Clear</string>
+    <string name="barcode_scan">...</string>
+    <string name="about">This app is to track tickets in OPS</string>
+    <string name="version">Version: 1.4</string>
+    <string name="mainProgrammer">Created by :Shahriar Doza</string>
+    <string name="credits">Graphics Credit: Mohamed Elgendy</string>
+
+</resources>
